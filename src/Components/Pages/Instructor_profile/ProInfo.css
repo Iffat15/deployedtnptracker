@@ -1,0 +1,101 @@
+.prof-container {
+  display: flex;
+
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to bottom,#5c6bc0,#512da8);
+    border-bottom-left-radius:15svw;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 5px rgb(183, 181, 181);
+    margin-top: 80px;
+}
+
+.App {
+  background-color: white;
+  padding: 20px;
+  height: 350px;
+  margin-top: 170px;
+  width: 400px;
+  border-radius: 1em;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.205);
+}
+.AppInfo {
+  background-color: rgb(250, 250, 250);
+  padding: 0em 0em;
+  /* margin:auto; */
+  height: 400px;
+  margin-top: 170px;
+  margin-left: 3%;
+  width: 900px;
+  border-radius: 1em;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.205);
+}
+ 
+.Permanent_Info{
+  text-align: center;
+}
+
+.registration_Id ,.gmail_Id,.phone_no{
+  color: #605f61;
+  font-size: large;
+margin: 0em 0.8em;
+}
+.internal-navbar {
+  width: 100%;
+  padding: 1px 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  background-color: rgb(217, 225, 237);
+ 
+}
+
+.internal-navbar li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 10px;
+  font-size: 16px;
+  text-decoration: none;
+  padding-bottom: 7px;
+  padding-bottom: 10px;
+  padding-left: 40px ;
+}
+
+.internal-navbar .staticList-btn:hover {
+  font-weight: 400;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(86, 96, 232);
+  background-color: #512da8;
+}
+
+.internal-navbar .stuList-btn:hover {
+font-weight: 400;
+cursor: pointer;
+color: rgb(255, 255, 255);
+border-bottom: 3px solid rgb(86, 96, 232);
+background-color: #512da8;
+}
+.internal-navbar .user-btn:hover {
+font-weight: 400;
+cursor: pointer;
+color: rgb(255, 255, 255);
+border-bottom: 3px solid rgb(86, 96, 232);
+background-color: #512da8;
+}
+.user-btn,.stuList-btn,.staticList-btn{
+color: rgb(255, 255, 255);
+margin-top:8px ;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 16px;
+background-color: #5c6bc0;
+border-radius: 10px;
+}

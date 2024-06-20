@@ -1,0 +1,107 @@
+/* .contri-container {
+  margin: 30px;
+  height: 400px; 
+  background-color: #f0f0f0;
+  padding: 20px 20px;
+  box-shadow: 0 5px 5px rgb(145, 142, 142);
+  overflow: hidden; 
+}
+
+
+.conth{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.contri-container .question-container{
+  padding: 10px;
+  margin: 30px;
+  max-height: calc(100% - 100px);
+  overflow-y: auto; 
+  background-color: rgb(192, 205, 215);
+}
+
+.contri-container .question-container .headingc{
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.contri-container .question-container .q{
+  max-width: 700px;
+  margin: 10px;
+  font-size: 14px;
+  color:rgb(49, 57, 66);
+}
+
+.contri-btn{
+  background: linear-gradient(to bottom, #5c6bc0, #512da8);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 20px;
+} */
+
+.contri-container {
+  margin: 30px;
+  height: auto; 
+  background-color: #f0f0f0;
+  padding: 20px 20px;
+  box-shadow: 0 5px 5px rgb(145, 142, 142);
+  overflow: hidden;  
+  position: relative;
+}
+
+.conth {
+  font-size: 24px;
+  font-weight: 600;
+  /* position: absolute; */
+  top: 20px;
+  left: 20px; 
+}
+
+.contri-container .question-container {
+  padding: 10px;
+  margin: 30px 30px 30px; 
+  max-height: calc(100% - 160px); 
+  overflow-y: auto; 
+  background-color: rgb(192, 205, 215);
+}
+
+.contri-container .question-container .headingc {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.contri-container .question-container .q {
+  max-width: 700px;
+  margin: 10px;
+  font-size: 14px;
+  color: rgb(49, 57, 66);
+}
+
+.contri-btn {
+  margin-bottom: 30px; 
+  right: 20px;
+  background: linear-gradient(to bottom, #5c6bc0, #512da8);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+}

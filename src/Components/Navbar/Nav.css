@@ -1,0 +1,42 @@
+   .nav-container {
+     width: 100%;
+     background: linear-gradient(to bottom, #5c6bc0, #512da8);
+     color: #fff;
+     padding: 4px 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 50;
+   }
+
+   .logo {
+     margin-left: 20px;
+     width: 80px;
+   }
+
+   nav ul li {
+     display: inline-block;
+     list-style: none;
+     margin: 5px 20px;
+     font-size: 16px;
+   }
+
+   nav ul li:hover {
+     font-weight: 600;
+     text-decoration: underline;
+     cursor: pointer;
+   }
+
+   .btn {
+     background: #fff;
+     color: #212121;
+     padding: 14px 25px;
+     font-size: 14px;
+     border-radius: 25px;
+     cursor: pointer;
+     border: 0;
+     outline: 0;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+   }

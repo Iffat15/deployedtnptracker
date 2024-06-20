@@ -1,0 +1,83 @@
+.comp-box{
+    width: 280px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 15x;
+    box-shadow: 0 5px 10px rgb(158, 156, 156);
+    border-radius: 10px;
+}
+
+.comp-box .comp-head{
+    background: linear-gradient(to top,#5c6bc0,#512da8);
+    height: 100px;
+    border-bottom-left-radius: 35px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.comp-box:hover .comp-head {
+    background: linear-gradient(to top, #512da8, #5c6bc0); 
+    height: 102px;
+    border-bottom:2px solid #512da8;
+    box-shadow: 0 5px 5px rgb(175, 174, 174);
+    transition: ease-in-out;
+
+}
+
+.comp-box .comp-head img {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+  
+.comp-box .comp-head .compname{
+    color: #f0f0f0ff;
+    padding-left: 10px;
+    max-width: 100px;
+    font-size: 24px;
+    font-weight: 500;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis;
+}
+
+.comp-box .cardbody{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp-box .cardbody h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.comp-box .cardbody p{
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.comp-box .cardbody .solve{
+    background: linear-gradient(to right, #512da8, #5c6bc0); 
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.comp-box .cardbody .solve:hover{
+    font-size: 19px;
+}
+

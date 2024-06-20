@@ -1,0 +1,73 @@
+  .company-intern h2 {
+    display: inline-block; 
+    margin: 0 30px; 
+  }
+
+  .titleintern{
+    color:black;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .company-intern{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px 20px;
+    box-shadow: 0 3px 3px rgb(145, 142, 142);
+  }
+  
+  .intern-info {
+    margin-bottom: 25px;
+  }
+  
+  .intern-info .internrole{
+    display: inline-block; 
+    font-size: 20px;
+    padding: 5px 10px; 
+    margin-left: 370px;
+    color: #3d227b;
+    text-align: center;
+  }
+  
+  .completionlet .offer_btn {
+    background: linear-gradient(to bottom, #5c6bc0, #512da8);
+    margin: 30px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .completionlett{
+    padding: 20px;
+    padding-left: 30px;
+  }
+  
+  .interndesc{
+    color: #fff;
+    padding: 20px;
+    background: linear-gradient(to bottom, #5c6bc0, #512da8);
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .interndesc h4{
+    color: #f0f0f0;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    max-width: 700px;
+  }
+  

@@ -1,0 +1,129 @@
+.status-container {
+  display: flex;
+  margin: 30px;
+  height: auto;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  box-shadow: 0 3px 3px rgb(145, 142, 142);
+}
+
+.status-container:hover{
+  cursor: pointer;
+}
+
+.status-container .sh{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.status-container .st{
+  color: #f0f0f0;
+}
+
+.status-container .status {
+  display: inline-block; 
+  padding: 5px 10px; 
+  width: 360px;
+  margin-left: 200px; 
+  border-radius: 5px; 
+  text-align: center;
+}
+
+.company-info h2 {
+  display: inline-block; 
+  margin: 0 30px; 
+}
+
+.comp{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.placed {
+  background-color: rgb(39, 154, 39); /* Color when placed */
+}
+
+.not-placed {
+  background-color: rgb(233, 43, 43); /* Color when not placed */
+}
+
+.company-placed{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  height: 320px;
+  background-color: #f0f0f0;
+  padding: 20px 20px;
+  box-shadow: 0 3px 3px rgb(145, 142, 142);
+}
+
+.company-info {
+  margin-bottom: 25px;
+}
+
+.company-info .position{
+  display: inline-block; 
+  font-size: 20px;
+  padding: 5px 10px; 
+  margin-left: 370px;
+  color: #3d227b;
+  text-align: center;
+}
+
+.offerlet .offer_btn {
+  background: linear-gradient(to bottom, #5c6bc0, #512da8);
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 60px 30px;
+}
+
+.offerlet{
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.company-placed .msg{
+  background: linear-gradient(to bottom, #5c6bc0, #512da8);
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.company-placed .msg h4{
+  color: #f0f0f0;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 550;
+  max-width: 700px;
+}
+
+.company-notplaced{
+  display: flex;
+  flex-direction: column; 
+  margin: 30px;
+  height: auto;
+  background-color: #f0f0f0;
+  padding: 20px 20px;
+  box-shadow: 0 3px 3px rgb(145, 142, 142);
+}
+
+.company-notplaced .msg{
+  background: linear-gradient(to bottom, #5c6bc0, #512da8);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.company-notplaced .msg h4{
+  color: #f0f0f0;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 550;
+  max-width: 700px;
+}

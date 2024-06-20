@@ -1,0 +1,41 @@
+.StaticsticStudent {
+    text-align: center;
+  }
+  
+  .StaticsticStudent-logo {
+    height: 40vmin;
+    pointer-events: none;
+    margin-top: 50%;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .StaticsticStudent-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .StaticsticStudent-header {
+    background-color: #3a2d2d;
+    min-height: 100vh;
+    /* display: flex; */
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    /* margin-top: 50%; */
+  }
+  
+  .StaticsticStudent-link {
+    color: #8afb61;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,119 @@
+/* Hero */
+
+.navbar {
+  background: linear-gradient(to bottom, #5c6bc0, #512da8);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.statistics-page .navbar {
+  background: linear-gradient(to bottom, #5c6bc0, #512da8);
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.60)), url('../../Assets/hero.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-text span {
+  background: linear-gradient(rgba(36, 36, 53, 0.6), rgb(8, 0, 59));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 10s linear infinite;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.301);
+  font-size: 60px;
+  font-weight: 700;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+
+  100% {
+    background-position: 500%;
+  }
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.hero-text p {
+  max-width: 750px;
+  margin: 10px auto 20px;
+  line-height: 1.4;
+}
+
+.hero-text h1 .type {
+  position: relative;
+  overflow: hidden;
+  /* border-right: 2px solid hsl(0, 0%, 80%); */
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 2s 1 normal both, blinkTextCursor 500ms infinite;
+}
+
+.Explorebtn {
+  background: #fff;
+  color: #212121;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Explorebtn img{
+  width: 20px;
+  margin-left: 10px;
+}
+
+.Explorebtn:hover{
+  color: #000;
+  font-size: 15px;
+}
+
+/* Statistics */
+
+.statistics-page .hero {
+  background-color: #f0f0f0;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 800px;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #fff;
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}

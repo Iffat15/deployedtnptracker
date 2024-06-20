@@ -1,0 +1,37 @@
+/* Coordinators.css */
+
+/* Styles for the Swiper container */
+.Swiper-Coordinators {
+    width: 100%; /* Make the Swiper container full width */
+    height: 300px; /* Set a fixed height for the Swiper container */
+    /* background-color: #24A; */
+    background: linear-gradient(to bottom,#5c6bc0,#512da8);
+}
+  
+  /* Styles for the Swiper slides */
+  .Coordinator {
+    display: flex; /* Use flexbox for the slide content */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    /* background-color: #f2f2f2; */
+    border-radius: 8px; /* Add some border-radius for rounded corners */
+    padding: 20px; /* Add some padding to the slides */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow for a subtle effect */
+    margin-right: 10px; /* Add some spacing between slides */
+  }
+  
+  /* Styles for the pagination bullets */
+  .swiper-pagination-bullet {
+    width: 8px; /* Set the width of the bullet */
+    height: 8px; /* Set the height of the bullet */
+    background-color: #333; /* Set the color of the bullet */
+    border-radius: 50%; /* Make the bullet round */
+    margin: 0 4px; /* Add some spacing between bullets */
+    opacity: 0.5; /* Set the initial opacity of the bullets */
+  }
+  
+  /* Styles for the active pagination bullet */
+  .swiper-pagination-bullet-active {
+    opacity: 1; /* Set the opacity of the active bullet to 1 */
+  }
+  
